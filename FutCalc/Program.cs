@@ -6,6 +6,7 @@ namespace FutCalc
 	partial class Program
 	{
 		private static ConsoleKey[] _menuKeys = new ConsoleKey[] { ConsoleKey.D1, ConsoleKey.D2, ConsoleKey.D3, ConsoleKey.D4 };
+
 		static void Main(string[] args)
 		{
 			Console.Title = "Micro E-mini Futures Risk Calculator";
@@ -23,6 +24,7 @@ namespace FutCalc
 
 			Run();
 		}
+
 		private static void Run()
 		{
 			var run = true;
@@ -73,6 +75,7 @@ namespace FutCalc
 
 			} while (run);
 		}
+
 		static bool ValidateUserInput(Product model) 
 		{
 			Write("\n\tEntry: ", writeLine: false);

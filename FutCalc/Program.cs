@@ -13,12 +13,12 @@ namespace FutCalc
 
 			var logoStrBldr = new StringBuilder();
 			logoStrBldr.Append("\n");
-			logoStrBldr.Append("███████╗██╗   ██╗████████╗ ██████╗ █████╗ ██╗      ██████╗\n");
-			logoStrBldr.Append("██╔════╝██║   ██║╚══██╔══╝██╔════╝██╔══██╗██║     ██╔════╝\n");
-			logoStrBldr.Append("█████╗  ██║   ██║   ██║   ██║     ███████║██║     ██║     \n");
-			logoStrBldr.Append("██╔══╝  ██║   ██║   ██║   ██║     ██╔══██║██║     ██║     \n");
-			logoStrBldr.Append("██║     ╚██████╔╝   ██║   ╚██████╗██║  ██║███████╗╚██████╗\n");
-			logoStrBldr.Append("╚═╝      ╚═════╝    ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ v1.0\n");
+			logoStrBldr.Append(" ███████╗██╗   ██╗████████╗ ██████╗ █████╗ ██╗      ██████╗\n");
+			logoStrBldr.Append(" ██╔════╝██║   ██║╚══██╔══╝██╔════╝██╔══██╗██║     ██╔════╝\n");
+			logoStrBldr.Append(" █████╗  ██║   ██║   ██║   ██║     ███████║██║     ██║     \n");
+			logoStrBldr.Append(" ██╔══╝  ██║   ██║   ██║   ██║     ██╔══██║██║     ██║     \n");
+			logoStrBldr.Append(" ██║     ╚██████╔╝   ██║   ╚██████╗██║  ██║███████╗╚██████╗\n");
+			logoStrBldr.Append(" ╚═╝      ╚═════╝    ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ v1.0\n");
 
 			Console.Clear();
 			Write(logoStrBldr.ToString());

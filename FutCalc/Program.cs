@@ -20,6 +20,7 @@ namespace FutCalc
 			logoStrBldr.Append("██║     ╚██████╔╝   ██║   ╚██████╗██║  ██║███████╗╚██████╗\n");
 			logoStrBldr.Append("╚═╝      ╚═════╝    ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ v1.0\n");
 
+			Console.Clear();
 			Write(logoStrBldr.ToString());
 
 			Run();
